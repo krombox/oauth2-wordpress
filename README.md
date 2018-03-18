@@ -1,6 +1,6 @@
-# Wordpress provider for OAuth 2.0 Client
+# WordPress provider for OAuth 2.0 Client
 
-This package provides Wordpress OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
+This package provides WordPress OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
 ## Installation
 
@@ -12,17 +12,16 @@ composer require krombox/oauth2-wordpress
 
 ## Prerequirements
 
-1) Wordpress >= 4.5
-2) [WP OAuth Server](https://wordpress.org/plugins/oauth2-provider/) plugin installed and [configured](https://wordpress.org/plugins/oauth2-provider/#faq)
+1) [WP OAuth Server](https://wordpress.org/plugins/oauth2-provider/) plugin installed and [configured](https://wordpress.org/plugins/oauth2-provider/#faq)
 
 ## Usage
 
-Usage is the same as The League's OAuth client, using `\Krombox\OAuth2\Client\Provider\Wordpress` as the provider.
+Usage is the same as The League's OAuth client, using `\Krombox\OAuth2\Client\Provider\WordPress` as the provider.
 
 ### Authorization Code Flow
 
 ```php
-$provider = new Krombox\OAuth2\Client\Provider\Wordpress([
+$provider = new Krombox\OAuth2\Client\Provider\WordPress([
     'clientId'          => '{wordpress-client-id}',
     'clientSecret'      => '{wordpress-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url',
