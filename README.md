@@ -1,5 +1,9 @@
 # WordPress provider for OAuth 2.0 Client
 
+[![Latest Version](https://img.shields.io/github/release/krombox/oauth2-wordpress.svg?style=flat-square)](https://github.com/krombox/oauth2-wordpress/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Total Downloads](https://img.shields.io/packagist/dt/krombox/oauth2-wordpress.svg?style=flat-square)](https://packagist.org/packages/krombox/oauth2-wordpress)
+
 This package provides WordPress OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
 ## Installation
